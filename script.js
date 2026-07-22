@@ -26,11 +26,14 @@
 //console.log(valordescontado)
 
 
-const peso = prompt("Digite seu peso (kg):");
-const altura = prompt("Digite sua altura (metros):");
+/* const peso = prompt("Digite seu peso (kg):");
+const altura = prompt("Digite sua altura (cm):");
 
-const imc = peso / (altura * altura);
-
+const alturaconvertida = altura/100
+const imc = peso / (alturaconvertida * alturaconvertida);
+//1.8
+//180 = 1.8
+//180/100
 if (imc < 18.5) {
     alert("IMC: " + imc + " - Abaixo do peso");
 } else if (imc < 25) {
@@ -43,4 +46,49 @@ if (imc < 18.5) {
     alert("IMC: " + imc + " - Obeso: Classe II");
 } else {
     alert("IMC: " + imc + " - Obeso: Classe III");
+} */
+
+
+    let nome = prompt("Digite sem nome")
+let nomeInvertido = "";
+
+let palavramaiscula = nome.toUpperCase()
+let palavraminuscula = nome.toLowerCase()
+console.log(palavramaiscula)
+console.log(palavraminuscula)
+for (let i = nome.length - 1; i >= 0; i--) {
+    nomeInvertido += nome[i];
+
+
 }
+console.log(nomeInvertido); 
+let vogais = 0
+for (let i = 0; i < nome.length; i++) {
+    let letra = nome[i];
+    if(letra=="a"||letra=="e"||letra=="i"){
+        vogais++
+    }
+
+}
+
+console.log(nome, "Tem "+vogais +" vogais")
+
+
+let frase = ("hoje vou pular da ponte:");
+
+let frasediferente = "";
+
+
+for (let i = 0; i < frase.length; i++) {
+  
+    if (i % 2 === 0) {
+        frasediferente += frase[i].toUpperCase();
+    } else {
+        frasediferente += frase[i].toLowerCase();
+    }
+}
+
+
+console.log(frasediferente);
+
+
