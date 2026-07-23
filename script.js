@@ -49,7 +49,7 @@ if (imc < 18.5) {
 } */
 
 
-    let nome = prompt("Digite sem nome")
+/*     let nome = prompt("Digite sem nome")
 let nomeInvertido = "";
 
 let palavramaiscula = nome.toUpperCase()
@@ -89,6 +89,32 @@ for (let i = 0; i < frase.length; i++) {
 }
 
 
-console.log(frasediferente);
+/* console.log(frasediferente); */
 
 
+
+
+
+/* const numeros =[1,2,3,4,5,6,7,8,9,10]
+console.log(numeros)
+const lista_vazia = []; 
+
+for(let i =0;i<numeros.length;i++){
+    const valor = numeros[i]
+    lista_vazia.push(valor*i)
+}
+
+console.log(lista_vazia, numeros);
+ */
+
+
+
+lista_nomes = ["gabriel", "joao", "maria", "jose"];
+const palavrasInvertidas = [];
+
+for (let i = 0; i < lista_nomes.length; i++) {
+
+    let palavraInvertida = lista_nomes[i];
+    
+    palavrasInvertidas.push(palavraInvertida);}
+    console.log(palavrasInvertidas, lista_nomes);
